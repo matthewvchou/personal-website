@@ -4,10 +4,12 @@ export default function Home() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="font-semibold text-lg">Matthew Chou</span>
+          <span className="font-semibold text-lg">Matthew Chou | 周培康</span>
           <div className="flex gap-8 text-sm text-gray-600">
-            <a href="#about" className="hover:text-gray-900 transition-colors">About</a>
+            <a href="#home" className="hover:text-gray-900 transition-colors">Home</a>
+            <a href="#experience" className="hover:text-gray-900 transition-colors">Experience</a>
             <a href="#projects" className="hover:text-gray-900 transition-colors">Projects</a>
+            <a href="#hobbies" className="hover:text-gray-900 transition-colors">Hobbies</a>
             <a href="#contact" className="hover:text-gray-900 transition-colors">Contact</a>
           </div>
         </div>
